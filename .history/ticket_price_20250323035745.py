@@ -1,5 +1,5 @@
 def calculate_ticket_price(age, seat_type):
-    base_price = 0
+    int base_price
     if age < 3:
         return "invalid"
     elif age < 12:

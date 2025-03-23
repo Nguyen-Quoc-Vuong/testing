@@ -1,7 +1,7 @@
 import pytest
-from ticket_price import calculate_ticket_price  
+from ticket_price import calculate_ticket_price  # Thay 'your_module' bằng tên file chứa hàm
 
-#Kiểm thử dòng điều khiển
+Kiểm thử dòng điều khiển
 @pytest.mark.parametrize("age, seat_type, expected", [
     (2, "vip", "invalid"),
     (11, "regular", 50000),

@@ -1,5 +1,5 @@
 import pytest
-from ticket_price import calculate_ticket_price  
+from ticket_price import calculate_ticket_price  # Thay 'your_module' bằng tên file chứa hàm
 
 #Kiểm thử dòng điều khiển
 @pytest.mark.parametrize("age, seat_type, expected", [
@@ -12,6 +12,4 @@ from ticket_price import calculate_ticket_price
 def test_calculate_ticket_price(age, seat_type, expected):
     assert calculate_ticket_price(age, seat_type) == expected
 
-
-
-
+#Kiểm thử dòng dữ liệu
